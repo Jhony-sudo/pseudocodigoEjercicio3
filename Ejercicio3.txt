@@ -1,0 +1,9 @@
+Algoritmo Ej3
+	Escribir "Ingrese un numero entero"
+	Leer Num
+	Resultado = Num
+		Para i<-1 Hasta Num-1 Con Paso 1 Hacer
+			Resultado = Resultado * i
+		Fin Para
+	Escribir Num " factories es igual a: " Resultado	
+FinAlgoritmo
